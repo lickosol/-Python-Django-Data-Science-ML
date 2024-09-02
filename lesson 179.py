@@ -3,6 +3,7 @@
 при сравнении текстов или количества votes_qty этих комментариев
 '''
 
+
 class Comment:
 
     def __init__(self, text):
@@ -17,6 +18,7 @@ class Comment:
             return True
         else:
             return False
+
 
 first_comment = Comment("First comment")
 second_comment = Comment("First comment")
